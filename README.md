@@ -7,10 +7,10 @@ This project implements image clustering, an unsupervised learning technique aim
 The dataset used in this project is a combination of mountain, beach, and forest photos obtained from Google image search. The goal of this project is to divide the dataset of photos into separate cluster folders. The model is built using the K-Means algorithm and MobileNetV2 transfer learning as the feature extractor.
 
 ## Files
-- `image_clustering.ipynb`: Jupyter Notebook containing the code for the image clustering project.
+- `Image_Clustering_with_K_Means.ipynb`: Jupyter Notebook containing the code for the image clustering project.
 - `image-dataset.zip`: ZIP file containing the dataset used in the project.
 
 ## Usage
-1. Download and extract the `dataset.zip` file.
-2. Open the `image_clustering.ipynb` notebook in Jupyter or any compatible environment.
+1. Download and extract the `image-dataset.zip` file.
+2. Open the `Image_Clustering_with_K_Means.ipynb` notebook in Jupyter or any compatible environment.
 3. Follow the instructions in the notebook to run the image clustering algorithm on the dataset.
