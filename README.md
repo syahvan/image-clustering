@@ -1,5 +1,16 @@
 # Image-Clustering
 
-***Image clustering*** merupakan salah satu teknik unsupervised learning yang bertujuan untuk mengelompokkan gambar ke dalam beberapa cluster berdasarkan kesamaan visual atau fitur lainnya. Cluster adalah sekelompok atau sekumpulan objek-objek data yang similar satu sama lain dalam cluster yang sama dan disimilar terhadap objek-objek yang berbeda cluster. Kesamaan objek biasanya diperoleh dari nilai-nilai atribut yang menjelaskan objek data, sedangkan objek-objek data biasanya direpresentasikan sebagai sebuah titik dalam ruang multidimensi.
+## Overview
+This project implements image clustering, an unsupervised learning technique aimed at grouping images into several clusters based on visual similarity or other features. Clusters consist of a group or set of data objects that are similar to each other within the same cluster and dissimilar to objects in different clusters. Similarity between objects is typically obtained from attribute values describing the data objects, while data objects are usually represented as a point in multidimensional space.
 
-Dataset yang digunakan pada project ini merupakan gabungan foto Pegunungan, Pantai, dan Hutan yang diambil dari Google image search. Project ini bertujuan untuk membagi dataset foto tersebut ke dalam masing-masing folder cluster yang terpisah. Model yang dibangun menggunakan algoritma K-Means dan transfer learning MobileNetV2 sebagai feature extractor. 
+## Dataset
+The dataset used in this project is a combination of mountain, beach, and forest photos obtained from Google image search. The goal of this project is to divide the dataset of photos into separate cluster folders. The model is built using the K-Means algorithm and MobileNetV2 transfer learning as the feature extractor.
+
+## Files
+- `image_clustering.ipynb`: Jupyter Notebook containing the code for the image clustering project.
+- `image-dataset.zip`: ZIP file containing the dataset used in the project.
+
+## Usage
+1. Download and extract the `dataset.zip` file.
+2. Open the `image_clustering.ipynb` notebook in Jupyter or any compatible environment.
+3. Follow the instructions in the notebook to run the image clustering algorithm on the dataset.
